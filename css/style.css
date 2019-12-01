@@ -1,0 +1,170 @@
+body {
+	margin: 0;	
+	padding: 0;
+	font-family: 'Cuprum', 'Arial', sans-serif;	
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 400;
+	color: #000000; 
+	
+	background-color: #ffffff;
+}
+
+html { 
+	box-sizing: border-box; 
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.container h1 {
+	font-family: 'Cuprum', 'Arial', sans-serif;	
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;	
+}
+
+.container h2 {
+	font-family: 'Cuprum', 'Arial', sans-serif;	
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 600;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.input-name {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.input-name p label {
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 14px
+}
+
+.input-name p {
+	text-transform: uppercase;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.input-name p:first-child {
+	margin-left: -100px;
+}
+
+.input-name p:nth-child(2) {
+	margin-left: 100px;
+}
+
+
+table {
+	 
+	border-collapse: collapse;
+	
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+table th {
+	font-size: 10px;
+	line-height: 12px;
+	font-weight: 800;
+
+	border: 1px solid #000000;
+
+	width: -100px;
+
+}
+
+table tr:nth-child(2n) {
+	background-color: #b7d3ed;
+}
+
+.table input[type="text"] {
+	display: flex;
+	align-items: flex-start;
+	
+	padding: 0 10px;
+	width: 50px;
+
+}
+
+.table input[type="date"] {
+	display: flex;
+	align-items: flex-start;
+	
+	padding: 0 0px;
+	width: 50px;
+}
+
+ table td {
+	border: 1px solid #000000;
+
+}
+
+ table td p {
+ 	margin: 0 0;
+ }
+
+.last-column p {
+	font-size: 10px;
+	line-height: 12px;
+	font-weight: 400;
+
+	display: flex;
+	flex-wrap: wrap;
+
+	margin: 0 0;
+
+	width: 220px;
+}
+
+.last-column p:first-child {
+	display: flex;
+		
+}
+
+.last-column p:nth-child(2) {
+	display: inline-block;
+	margin-right: -120px;	
+}
+
+.last-column p:nth-child(3) {
+	display: inline-block;
+	
+}
+
+.last-column p:nth-child(4) {
+	
+	display: flex;
+}
+
+
+
+.last-column p label {
+	margin: 0 0;
+}
+
+table tr td #text-chair {
+	
+}
